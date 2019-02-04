@@ -4,6 +4,7 @@ import './SideBar.scss';
 import SideBarItem from "./SideBarItem/SideBarItem";
 import SideBarHeader from "./SideBarHeader/SideBarHeader";
 import Subscriptions from "./Subscriptions/Subscriptions";
+import SideBarFooter from "./SideBarFooter/SideBarFooter";
 
 export class SideBar extends React.Component {
   render() {
@@ -26,6 +27,7 @@ export class SideBar extends React.Component {
         <SideBarItem label="Help" icon="help circle" />
         <SideBarItem label="Send feedback" icon="comment" />
         <Divider />
+        <SideBarFooter />
       </Menu>
     );
   }
