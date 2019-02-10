@@ -1,6 +1,7 @@
 import React from 'react';
 import {Divider} from 'semantic-ui-react';
 import VideoPreview from '../VideoPreview/VideoPreview';
+import VideoGridHeader from './VideoGridHeader/VideoGridHeader';
 import './VideoGrid.scss';
 
 export interface VideoGridProps {
@@ -12,7 +13,7 @@ export function VideoGrid(props: VideoGridProps) {
   const divider = props.hideDivider ? null : <Divider />;
   return (
     <>
-      <h4>{props.title}</h4>
+      <VideoGridHeader title={props.title} />
       <div className="video-grid">
         <VideoPreview />
         <VideoPreview />
