@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBarItem renders SideBarItem with a label and icon highlight prop is false 1`] = `
+<MenuItem
+  className="sidebar-item "
+>
+  <div
+    className="sidebar-item-alignment-container"
+  >
+    <span>
+      <Icon
+        as="i"
+        name="bell"
+        size="large"
+      />
+    </span>
+    <span>
+      a label
+    </span>
+  </div>
+</MenuItem>
+`;
+
+exports[`SideBarItem renders SideBarItem with a label and icon highlight prop is true 1`] = `
+<MenuItem
+  className="sidebar-item highlight-item"
+>
+  <div
+    className="sidebar-item-alignment-container"
+  >
+    <span>
+      <Icon
+        as="i"
+        name="bell"
+        size="large"
+      />
+    </span>
+    <span>
+      a label
+    </span>
+  </div>
+</MenuItem>
+`;
+
+exports[`SideBarItem renders SideBarItem with a label and icon without highlight prop 1`] = `
+<MenuItem
+  className="sidebar-item "
+>
+  <div
+    className="sidebar-item-alignment-container"
+  >
+    <span>
+      <Icon
+        as="i"
+        name="bell"
+        size="large"
+      />
+    </span>
+    <span>
+      a label
+    </span>
+  </div>
+</MenuItem>
+`;

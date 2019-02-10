@@ -7,7 +7,7 @@ export interface SideBarHeaderProps {
 }
 
 export function SideBarHeader(props: SideBarHeaderProps) {
-  const heading = props.title ? props.title.toUpperCase() : '';
+  const heading = props.title.toUpperCase();
   return (
     <Menu.Item>
       <Menu.Header className="sidebar-header">{heading}</Menu.Header>
