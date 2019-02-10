@@ -21,5 +21,3 @@ export function SideBarItem(props: SideBarItemProps) {
     </Menu.Item>
   )
 }
-
-export default SideBarItem;

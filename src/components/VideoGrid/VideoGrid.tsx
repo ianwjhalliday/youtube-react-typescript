@@ -1,7 +1,7 @@
 import React from 'react';
 import {Divider} from 'semantic-ui-react';
-import VideoPreview from '../VideoPreview/VideoPreview';
-import VideoGridHeader from './VideoGridHeader/VideoGridHeader';
+import {VideoPreview} from '../VideoPreview/VideoPreview';
+import {VideoGridHeader} from './VideoGridHeader/VideoGridHeader';
 import './VideoGrid.scss';
 
 export interface VideoGridProps {
@@ -32,5 +32,3 @@ export function VideoGrid(props: VideoGridProps) {
     </>
   );
 }
-
-export default VideoGrid;

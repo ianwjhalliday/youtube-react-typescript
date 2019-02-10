@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import SideBarItem from '../SideBarItem';
+import {SideBarItem} from '../SideBarItem';
 
 describe('SideBarItem', () => {
   describe('renders SideBarItem with a label and icon', () => {

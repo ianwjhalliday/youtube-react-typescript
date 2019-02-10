@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import VideoPreview from '../VideoPreview';
+import {VideoPreview} from '../VideoPreview';
 
 test('renders VideoPreview', () => {
   const wrapper = shallow(

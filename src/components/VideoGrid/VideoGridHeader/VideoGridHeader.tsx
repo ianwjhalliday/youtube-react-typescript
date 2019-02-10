@@ -12,5 +12,3 @@ export function VideoGridHeader(props: VideoGridHeaderProps) {
     </div>
   )
 }
-
-export default VideoGridHeader;

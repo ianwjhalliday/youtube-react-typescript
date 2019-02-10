@@ -23,5 +23,3 @@ export class VideoPreview extends React.Component {
     );
   }
 }
-
-export default VideoPreview;

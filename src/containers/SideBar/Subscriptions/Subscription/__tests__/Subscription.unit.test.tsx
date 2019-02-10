@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import Subscription from '../Subscription';
+import {Subscription} from '../Subscription';
 
 describe('renders Subscription', () => {
   test('with label', () => {

@@ -18,5 +18,3 @@ export class Subscriptions extends React.Component {
     )
   }
 }
-
-export default Subscriptions;

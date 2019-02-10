@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import SideBarHeader from '../SideBarHeader';
+import {SideBarHeader} from '../SideBarHeader';
 
 test('renders SideBarHeader with uppercase title', () => {
   const wrapper = shallow(

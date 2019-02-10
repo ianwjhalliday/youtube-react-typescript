@@ -1,6 +1,6 @@
 import React from 'react';
-import VideoGrid from '../../components/VideoGrid/VideoGrid';
-import SideBar from '../SideBar/SideBar';
+import {VideoGrid} from '../../components/VideoGrid/VideoGrid';
+import {SideBar} from '../SideBar/SideBar';
 import './Home.scss';
 
 export class Home extends React.Component {
@@ -18,5 +18,3 @@ export class Home extends React.Component {
     );
   }
 }
-
-export default Home;

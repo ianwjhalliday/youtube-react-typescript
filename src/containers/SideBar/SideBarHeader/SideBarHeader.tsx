@@ -14,5 +14,3 @@ export function SideBarHeader(props: SideBarHeaderProps) {
     </Menu.Item>
   );
 }
-
-export default SideBarHeader;

@@ -28,5 +28,3 @@ export function Subscription(props: SubscriptionProps) {
     </Menu.Item>
   );
 }
-
-export default Subscription;

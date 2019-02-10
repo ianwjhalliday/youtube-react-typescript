@@ -24,5 +24,3 @@ export function SideBarFooter() {
     </>
   );
 }
-
-export default SideBarFooter;
