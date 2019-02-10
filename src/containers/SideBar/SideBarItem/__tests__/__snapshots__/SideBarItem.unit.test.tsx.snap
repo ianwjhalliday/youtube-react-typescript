@@ -2,7 +2,7 @@
 
 exports[`SideBarItem renders SideBarItem with a label and icon highlight prop is false 1`] = `
 <MenuItem
-  className="sidebar-item "
+  className="sidebar-item"
 >
   <div
     className="sidebar-item-alignment-container"
@@ -44,7 +44,7 @@ exports[`SideBarItem renders SideBarItem with a label and icon highlight prop is
 
 exports[`SideBarItem renders SideBarItem with a label and icon without highlight prop 1`] = `
 <MenuItem
-  className="sidebar-item "
+  className="sidebar-item"
 >
   <div
     className="sidebar-item-alignment-container"

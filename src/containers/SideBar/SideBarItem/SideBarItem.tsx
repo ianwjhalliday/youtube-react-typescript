@@ -1,4 +1,5 @@
 import React from 'react';
+import cx from 'classnames';
 import {Icon, Menu, SemanticICONS} from 'semantic-ui-react';
 import './SideBarItem.scss';
 
@@ -10,11 +11,12 @@ export interface SideBarItemProps {
 
 export const SideBarItem: React.FC<SideBarItemProps> = (props) => {
   const {highlight, icon, label} = props;
-  // React will ignore custom boolean attributes, therefore we pass a string
-  // we use this attribute in our SCSS for styling
-  const highlightClass = highlight ? 'highlight-item' : null;
+  const classNames = cx({
+    'sidebar-item': true,
+    'highlight-item': highlight,
+  });
   return (
-    <Menu.Item className={['sidebar-item', highlightClass].join(' ')}>
+    <Menu.Item className={classNames}>
       <div className="sidebar-item-alignment-container">
         <span><Icon size="large" name={icon}/></span>
         <span>{label}</span>
