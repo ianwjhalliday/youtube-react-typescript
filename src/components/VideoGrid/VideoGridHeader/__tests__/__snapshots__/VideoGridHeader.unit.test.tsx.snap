@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders VideoGridHeader 1`] = `
+<div
+  className="video-grid-header"
+>
+  <span
+    className="title"
+  >
+    title
+  </span>
+</div>
+`;

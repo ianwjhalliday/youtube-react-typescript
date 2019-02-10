@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoGrid renders VideoGrid with title and divider 1`] = `
+<Fragment>
+  <VideoGridHeader
+    title="title"
+  />
+  <div
+    className="video-grid"
+  >
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+  </div>
+  <Divider />
+</Fragment>
+`;
+
+exports[`VideoGrid renders VideoGrid with title and no divider 1`] = `
+<Fragment>
+  <VideoGridHeader
+    title="title"
+  />
+  <div
+    className="video-grid"
+  >
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+  </div>
+</Fragment>
+`;
