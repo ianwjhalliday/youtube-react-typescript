@@ -9,7 +9,7 @@ export interface AppLayoutProps {
 export function AppLayout(props: AppLayoutProps) {
   return (
     <div className="app-layout">
-      <HeaderNav />
+      <HeaderNav/>
       {props.children}
     </div>
   )

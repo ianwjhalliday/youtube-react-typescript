@@ -4,7 +4,7 @@ import SideBar from '../SideBar';
 
 test('renders SideBar', () => {
   const wrapper = shallow(
-    <SideBar />
+    <SideBar/>
   );
   expect(wrapper).toMatchSnapshot();
 });

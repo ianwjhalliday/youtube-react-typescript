@@ -4,7 +4,7 @@ import SideBarHeader from '../SideBarHeader';
 
 test('renders SideBarHeader with uppercase title', () => {
   const wrapper = shallow(
-    <SideBarHeader title="Header" />
+    <SideBarHeader title="Header"/>
   );
   expect(wrapper).toMatchSnapshot();
 });

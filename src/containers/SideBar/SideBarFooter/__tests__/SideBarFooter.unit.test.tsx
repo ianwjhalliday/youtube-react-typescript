@@ -4,7 +4,7 @@ import SideBarFooter from '../SideBarFooter';
 
 test('renders SideBarFooter', () => {
   const wrapper = shallow(
-    <SideBarFooter />
+    <SideBarFooter/>
   );
   expect(wrapper).toMatchSnapshot();
 });

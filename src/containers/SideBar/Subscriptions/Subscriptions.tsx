@@ -7,13 +7,13 @@ export class Subscriptions extends React.Component {
   render() {
     return (
       <>
-        <SideBarHeader title="Subscriptions" />
-        <Subscription label="MusicChannel" broadcastingNow />
-        <Subscription label="Coursera" newVideosCount={10} />
-        <Subscription label="TEDx Talks" newVideosCount={23} />
-        <Subscription label="Stanford iOS" newVideosCount={4} />
-        <Subscription label="Udacity" newVideosCount={114} />
-        <Divider />
+        <SideBarHeader title="Subscriptions"/>
+        <Subscription label="MusicChannel" broadcastingNow/>
+        <Subscription label="Coursera" newVideosCount={10}/>
+        <Subscription label="TEDx Talks" newVideosCount={23}/>
+        <Subscription label="Stanford iOS" newVideosCount={4}/>
+        <Subscription label="Udacity" newVideosCount={114}/>
+        <Divider/>
       </>
     )
   }

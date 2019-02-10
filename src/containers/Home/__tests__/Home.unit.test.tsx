@@ -4,7 +4,7 @@ import Home from '../Home';
 
 test('renders Home', () => {
   const wrapper = shallow(
-    <Home />
+    <Home/>
   );
   expect(wrapper).toMatchSnapshot();
 });

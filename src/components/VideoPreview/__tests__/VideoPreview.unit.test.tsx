@@ -4,7 +4,7 @@ import VideoPreview from '../VideoPreview';
 
 test('renders VideoPreview', () => {
   const wrapper = shallow(
-    <VideoPreview />
+    <VideoPreview/>
   );
   expect(wrapper).toMatchSnapshot();
 });

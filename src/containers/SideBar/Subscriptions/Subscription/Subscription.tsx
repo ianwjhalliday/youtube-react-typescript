@@ -11,7 +11,7 @@ export interface SubscriptionProps {
 export function Subscription(props: SubscriptionProps) {
   const {broadcastingNow, label, newVideosCount} = props;
   const rightElement = broadcastingNow
-    ? <Icon name="signal" />
+    ? <Icon name="signal"/>
     : newVideosCount
       ? <span className="new-videos-count">{newVideosCount}</span>
       : null;
@@ -20,7 +20,7 @@ export function Subscription(props: SubscriptionProps) {
     <Menu.Item className="sidebar-item">
       <div className="subscription">
         <div>
-          <Image src="http://via.placeholder.com/28x28" avatar />
+          <Image src="http://via.placeholder.com/28x28" avatar/>
           <span>{label}</span>
         </div>
         {rightElement}

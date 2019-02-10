@@ -10,23 +10,23 @@ export interface VideoGridProps {
 }
 
 export function VideoGrid(props: VideoGridProps) {
-  const divider = props.hideDivider ? null : <Divider />;
+  const divider = props.hideDivider ? null : <Divider/>;
   return (
     <>
-      <VideoGridHeader title={props.title} />
+      <VideoGridHeader title={props.title}/>
       <div className="video-grid">
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
-        <VideoPreview />
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
+        <VideoPreview/>
       </div>
       {divider}
     </>

@@ -15,7 +15,7 @@ export function SideBarItem(props: SideBarItemProps) {
   return (
     <Menu.Item className={['sidebar-item', highlight].join(' ')}>
       <div className="sidebar-item-alignment-container">
-        <span><Icon size="large" name={props.icon} /></span>
+        <span><Icon size="large" name={props.icon}/></span>
         <span>{props.label}</span>
       </div>
     </Menu.Item>

@@ -4,7 +4,7 @@ import Subscriptions from '../Subscriptions';
 
 test('renders Subscriptions', () => {
   const wrapper = shallow(
-    <Subscriptions />
+    <Subscriptions/>
   );
   expect(wrapper).toMatchSnapshot();
 });

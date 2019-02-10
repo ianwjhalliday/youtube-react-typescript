@@ -4,7 +4,7 @@ import HeaderNav from '../HeaderNav';
 
 test('renders HeaderNav', () => {
   const wrapper = shallow(
-    <HeaderNav />
+    <HeaderNav/>
   );
   expect(wrapper).toMatchSnapshot();
 });

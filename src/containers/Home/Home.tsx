@@ -7,11 +7,11 @@ export class Home extends React.Component {
   render() {
     return (
       <>
-        <SideBar />
+        <SideBar/>
         <div className="home">
           <div className="responsive-video-grid-container">
-            <VideoGrid title="Trending" />
-            <VideoGrid title="Autos & Vehicles" hideDivider />
+            <VideoGrid title="Trending"/>
+            <VideoGrid title="Autos & Vehicles" hideDivider/>
           </div>
         </div>
       </>
