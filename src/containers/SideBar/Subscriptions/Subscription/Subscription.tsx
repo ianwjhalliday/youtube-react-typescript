@@ -17,7 +17,7 @@ export function Subscription(props: SubscriptionProps) {
       : null;
 
   return (
-    <Menu.Item>
+    <Menu.Item className="sidebar-item">
       <div className="subscription">
         <div>
           <Image src="http://via.placeholder.com/28x28" avatar />

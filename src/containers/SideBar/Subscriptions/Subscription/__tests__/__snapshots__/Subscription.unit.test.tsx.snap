@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders Subscription with label 1`] = `
-<MenuItem>
+<MenuItem
+  className="sidebar-item"
+>
   <div
     className="subscription"
   >
@@ -21,7 +23,9 @@ exports[`renders Subscription with label 1`] = `
 `;
 
 exports[`renders Subscription with label and broadcastingNow 1`] = `
-<MenuItem>
+<MenuItem
+  className="sidebar-item"
+>
   <div
     className="subscription"
   >
@@ -45,7 +49,9 @@ exports[`renders Subscription with label and broadcastingNow 1`] = `
 `;
 
 exports[`renders Subscription with label and broadcastingNow takes priority over newVideosCount 1`] = `
-<MenuItem>
+<MenuItem
+  className="sidebar-item"
+>
   <div
     className="subscription"
   >
@@ -69,7 +75,9 @@ exports[`renders Subscription with label and broadcastingNow takes priority over
 `;
 
 exports[`renders Subscription with label and newVideosCount 1`] = `
-<MenuItem>
+<MenuItem
+  className="sidebar-item"
+>
   <div
     className="subscription"
   >
