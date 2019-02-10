@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import Home from './containers/Home/Home';
-import HeaderNav from './containers/HeaderNav/HeaderNav';
-import SideBar from './containers/SideBar/SideBar';
+import AppLayout from './components/AppLayout/AppLayout';
 
 class App extends Component {
   render() {
     return (
-      <>
-        <HeaderNav/>
-        <SideBar/>
+      <AppLayout>
         <Home/>
-      </>
+      </AppLayout>
     );
   }
 }
