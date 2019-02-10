@@ -8,16 +8,17 @@ export interface SideBarItemProps {
   label: string;
 }
 
-export function SideBarItem(props: SideBarItemProps) {
+export const SideBarItem: React.FC<SideBarItemProps> = (props) => {
+  const {highlight, icon, label} = props;
   // React will ignore custom boolean attributes, therefore we pass a string
   // we use this attribute in our SCSS for styling
-  const highlight = props.highlight ? 'highlight-item' : null;
+  const highlightClass = highlight ? 'highlight-item' : null;
   return (
-    <Menu.Item className={['sidebar-item', highlight].join(' ')}>
+    <Menu.Item className={['sidebar-item', highlightClass].join(' ')}>
       <div className="sidebar-item-alignment-container">
-        <span><Icon size="large" name={props.icon}/></span>
-        <span>{props.label}</span>
+        <span><Icon size="large" name={icon}/></span>
+        <span>{label}</span>
       </div>
     </Menu.Item>
   )
-}
+};

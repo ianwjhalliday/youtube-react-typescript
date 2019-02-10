@@ -9,7 +9,7 @@ export interface VideoGridProps {
   title: string;
 }
 
-export function VideoGrid(props: VideoGridProps) {
+export const VideoGrid: React.FC<VideoGridProps> = (props) => {
   const divider = props.hideDivider ? null : <Divider/>;
   return (
     <>
@@ -31,4 +31,4 @@ export function VideoGrid(props: VideoGridProps) {
       {divider}
     </>
   );
-}
+};

@@ -1,7 +1,7 @@
 import React from 'react';
 import './SideBarFooter.scss';
 
-export function SideBarFooter() {
+export const SideBarFooter: React.FC = () => {
   return (
     <>
       <div className="footer-block">
@@ -23,4 +23,4 @@ export function SideBarFooter() {
       </div>
     </>
   );
-}
+};

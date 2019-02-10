@@ -8,7 +8,7 @@ export interface SubscriptionProps {
   newVideosCount?: number;
 }
 
-export function Subscription(props: SubscriptionProps) {
+export const Subscription: React.FC<SubscriptionProps> = (props) => {
   const {broadcastingNow, label, newVideosCount} = props;
   const rightElement = broadcastingNow
     ? <Icon name="signal"/>
